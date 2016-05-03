@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>九宫格</title>
+</head>
+ 	<style>
+ 	#wrapper{width: 300px;height:300px;margin:0 auto;}
+ 	#content{width: 100%; height: 100%;border:#ccc 1px solid;}
+ 	.square{width: 32%; height: 32%;margin:1% 0 0 1%;float: left;background:orange; border-radius: 10%;}
+</style>
+<body>
+<div id="wrapper">
+	<div id="content">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		</div>
+</div>
+</body>
+</html>						
